@@ -302,12 +302,17 @@ h5 {
   content: ' • ';
 }
 
-.supporter > li.♥::after {
-  content: ' ♥ • ';
+.supporter-official figure {
+  margin: 2em 0.2em;
+  width: 150px;
 }
 
-#donate h3 {
-  color: #ad940e;
+.supporter-official img {
+  width: 90%;
+}
+
+.supporter-official figcaption {
+  font-size: 0.7em;
 }
 
 #donate .donate-details {
